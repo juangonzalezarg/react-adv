@@ -1,0 +1,70 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Juan",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "González",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Email",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "label": "GTA V"
+            },
+            {
+                "id": 2,
+                "label": "Minecraft"
+            },
+            {
+                "id": 3,
+                "label": "Fall Guys"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]
